@@ -1,0 +1,9 @@
+#!/bin/bash
+
+PARAM='--textcolor=00000000 --insidecolor=0000001c --ringcolor=0000003e \
+        --linecolor=00000000 --keyhlcolor=ffffff80 --ringvercolor=ffffff00 \
+        --insidevercolor=ffffff1c --ringwrongcolor=ffffff55 --insidewrongcolor=ffffff1c'
+
+# try to use a forked version of i3lock with prepared parameters
+~/core/i3mods/fancylock/i3color/i3lock $PARAM -i ~/core/i3mods/fancylock/fixedwall.png> /dev/null 2>&1
+
