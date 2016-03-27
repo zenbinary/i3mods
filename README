@@ -1,4 +1,11 @@
-Hello zenbinary, this is your current i3configuration with everything in order. 
+Hello zenbinary, 
+
+This is your current i3 configuration with everything in order. 
+
+includes: 
+-fancy i3lock
+-spotify
+-volume and brightness scripts
 
 Custom modules still need to be added.
 
